@@ -1,6 +1,7 @@
 //syntax to import the react lib
 import React, { Component } from 'react';
 import TodoItems from "./TodoItems";
+import "./TodoList.css";
 //this is done to get the react object from react module
 
 /** Trivia
