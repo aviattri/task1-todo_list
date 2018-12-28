@@ -1,6 +1,6 @@
 //syntax to import the react lib
 import React, { Component } from 'react';
-//import TodoItems from "./TodoItems";
+import TodoItems from "./TodoItems";
 //this is done to get the react object from react module
 
 /** Trivia
@@ -65,7 +65,7 @@ class TodoList extends Component {
             <button type="submit">add item </button>
           </form>  
         </div>
-        {/*<TodoItems entries={this.state.items}/> */}
+        <TodoItems entries={this.state.items}/> 
       </div>
     );   
   }
